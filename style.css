@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    margin: auto 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.contact {
+    display: block;
+}
+
+ label { 
+    display: block;
+    padding-top: 10px;
+} 
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    background-color: black;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: .5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+a:hover{
+    border-bottom: 4px solid #693B8F;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    flex: 3;
+    align-content: center;
+    font-family: 'Delius', cursive;
+    letter-spacing: 3px;
+    color: #F6C800;
+    text-align: center;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h1 {
+    color: #693B8F;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: fit-content;
+}
+
+p {
+    padding: 40px;
+}
+
+button {
+    background-color: #693B8F;
+    color: #F6C800;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 20vh;
+    background-color: black;
+    font-family: 'Delius', cursive;
+    text-align: center;
+    color: #693B8F;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6C800;
+    padding: 20px;
+}
+
+.location {
+    text-align: center;
+    list-style-type: none;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+
+small {
+    text-align: center;
+}
+
+.about{
+    width: 1000px;
+}
+
+#name {
+    text-align: center; 
+    font-family: 'Delius', cursive;
+}
+
+#headshot {
+    display: block;
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (min-width: 768px){
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px)  */ */
+
